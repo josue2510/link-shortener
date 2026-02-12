@@ -1,0 +1,28 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "description": "Url shortener service",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "josue2510",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
